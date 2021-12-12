@@ -47,17 +47,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-[ ] - Make a new folder using CMD on desktop.
-[ ] - Change directories to this new folder using CMD.
-[ ] - Create a new file using CMD.
-[ ] - Set up a new **NPM** package.
-[ ] - Open folder using CMD
-[ ] - Using **NPM** install the **Express** module.
-[ ] - Require express in the module.
-[ ] - Setup **Express**.
-[ ] - Send the words **Hello World** from the root route as the response.
-[ ] - Spin up the server on port 3000.
-[ ] - Run the Server using **Nodemon**.
+- [ ] Make a new folder using CMD on desktop.
+- [ ] Change directories to this new folder using CMD.
+- [ ] Create a new file using CMD.
+- [ ] Set up a new **NPM** package.
+- [ ] Open folder using CMD
+- [ ] Using **NPM** install the **Express** module.
+- [ ] Require express in the module.
+- [ ] Setup **Express**.
+- [ ] Send the words **Hello World** from the root route as the response.
+- [ ] Spin up the server on port 3000.
+- [ ] Run the Server using **Nodemon**.
 
 ### Built with
 
