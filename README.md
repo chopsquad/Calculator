@@ -47,17 +47,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-- [ ] Make a new folder using CMD on desktop.
-- [ ] Change directories to this new folder using CMD.
-- [ ] Create a new file using CMD.
-- [ ] Set up a new **NPM** package.
-- [ ] Open folder using CMD
-- [ ] Using **NPM** install the **Express** module.
-- [ ] Require express in the module.
-- [ ] Setup **Express**.
-- [ ] Send the words **Hello World** from the root route as the response.
-- [ ] Spin up the server on port 3000.
-- [ ] Run the Server using **Nodemon**.
+- [x] Make a new folder using CMD on desktop.
+- [x] Change directories to this new folder using CMD.
+- [x] Create a new file using CMD.
+- [x] Set up a new **NPM** package.
+- [x] Open folder using CMD
+- [x] Using **NPM** install the **Express** module.
+- [x] Require express in the module.
+- [x] Setup **Express**.
+- [x] Send the words **Hello World** from the root route as the response.
+- [x] Spin up the server on port 3000.
+- [x] Run the Server using **Nodemon**.
 
 ### Built with
 
@@ -98,6 +98,25 @@ cd "name of folder you would like to change directories to"
 Inside of the Folder.
 
 touch "name of file"."the file type"
+};
+```
+
+-Starting up the server using **express**.
+
+```js
+const express = require("express");
+
+const app = express();
+
+const port = 3000;
+
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
+
+app.listen(port, function () {
+  console.log("This Server is now running!");
+});
 };
 ```
 
